@@ -16,28 +16,38 @@ RW-HPS 用户手册
 
 Config配置解释 : [服务器配置](Config.md)
 
-|             文件夹名称             | 用途                               |
-|:----------------------------------:|:-----------------------------------|
-|        `data/plugins`         | 存放插件                                |
-|          `data/maps`          | 存放地图                                |
-|          `data/mods`          | 存放Rwmod                               |
-|         `data/cache`          | 存放缓存，一般不需要在意它们            |
-|          `data/libs`          | 存放依赖，一般不需要在意它们            |
-|        `data/CoreLib`         | 存放Hess核心依赖，一般不需要在意它们    |
-|          `data/log`           | 存放Log，一般不需要在意它们             |
-|      `data/Config.json`       | 存放服务器配置，可以打开并修改配置      |
-|    `data/ConfigServer.json`   | 存放处于Server模式时的服务器配置        |
-|     `data/RelayConfig.json`   | 存放处于Relay模式时的服务器配置         |
-|       `data/Test.json`        | 存放测试选项                            |
-|      `data/Settings.bin`      | 存放内部配置，一般不需要在意它们        |
+**注意**: RW-HPS提供了3个配置文件,而不是只有`Config.json`！
+
+|        文件夹名称        |      用途      |
+| :----------------------: | :------------: |
+|       `data/cache`       |      缓存      |
+|       `data/libs`        |    依赖文件    |
+|     `data/gameData`      | HESS 资源文件  |
+|       `data/maps`        |    游戏地图    |
+|       `data/mods`        |    游戏模组    |
+|      `data/plugins`      |   服务器插件   |
+|      `data/replays`      |   服务器回放   |
+|        `data/log`        |   服务器日志   |
+|    `data/Config.json`    | 服务器通用配置 |
+| `data/ConfigServer.json` | Server模式配置 |
+| `data/RelayConfig.json`  | Relay模式配置  |
+|   `data/Settings.bin`    |    内部数据    |
 
 ### 下载和安装插件
 
-刚刚装好的 RW-HPS 是没有任何自定义功能的。功能将由插件提供。
+刚刚装好的 RW-HPS 是没有任何自定义功能的哦！功能将由插件提供
+
+通常情况下, 把插件扔进`data/plugins`就能用啦
 
 ### 使用Mod
 
 把mod扔进 `data/mods` 就好了 !
+
+后缀名必须为`rwmod`
+
+**不要解压！** **不要解压！** **不要解压！**
+
+~~重要的事情说三遍~~
 
 ### 使用地图
 

@@ -5,7 +5,7 @@
 ### 1.JVM 环境要求
 
 - JVM：最低版本： <font style="color:red;font-weight:bold">~~Java 8(因为HPS架构升级，现已不再可用)~~</font> JDK11   
-  优先建议您通过JDK11进行使用,但也可以使用JRE。一切由你自己的喜好来使用。
+  优先建议您通过 JDK11 进行使用,但也可以使用JRE。一切由你自己的喜好来使用。
 
 ### 2.如何获取JDK?
 
@@ -130,7 +130,7 @@ sudo apt-get install git oracle-java11-installer screen -y
 ```bash
 HTTPS  
 git clone https://github.com/RW-HPS/RW-HPS.git
-``` 
+```
 
 ```bash  
 SSH

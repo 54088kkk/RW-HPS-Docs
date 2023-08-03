@@ -4,7 +4,7 @@
 
 ## JVM 环境要求
 
-- 桌面 JVM：最低 Java 8
+- 桌面 JVM：最低 Java 11
 
 > 要下载 JDK：
 > - 手动下载安装如 [AdoptOpenJDK](https://adoptopenjdk.net/) or [OracleJDK](https://www.oracle.com/java/technologies/javase-downloads.html)

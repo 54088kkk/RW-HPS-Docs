@@ -24,6 +24,12 @@
 
 请在 [**插件开发目录**](plugin/README.md) 阅读 **RW-HPS-Plugin** 的各种操作
 
+## 其他语言平台 RW-HPS 开发
+
+*目前*并没有**使用**其他语言开发 RW-HPS 的例子,不过你可以通过*HTTP*来访问*API*以开发
+
+请参考[HttpAPI](api/HttpAPI.md)
+
 ## RW-HPS 其他文档
 
 ### RW-HPS 版本规范

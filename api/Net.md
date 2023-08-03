@@ -28,20 +28,22 @@ class StartNet {
 
 通常的调用方法为：
 
-```
+```kotlin
 // Kotlin
 val startNet = StartNet()
+```
 
+```java
 // Java
 StartNet startNet = StartNet();
 ```
 
 #### 启动端口监听
 
-```
+```kotlin
 val startNet = ~
 startNet.openPort(主端口)
-如果是监听多个端口 那么可以
+// 如果是监听多个端口 那么可以
 startNet.openPort(主端口,监听范围起始,监听范围结束)
 ```
 

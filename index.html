@@ -19,16 +19,43 @@
       relativePath: true,
       loadNavbar: true,
 
-      search: 'auto',
+      search: {
+        placeholder: {
+          '/en/': 'Type to search',
+          '/': '搜索'
+        },
+        noData: {
+          '/en/': 'No Results',
+          '/': '找不到结果'
+        },
+        namespace: 'rwhps-docs'
+      },
 
       copyCode: {
-        buttonText : 'Copy to clipboard',
-        errorText  : 'Error',
-        successText: 'Copied'
+        buttonText: {
+          '/en/': 'Copy to clipboard',
+          '/': '点击复制'
+        },
+        errorText: {
+          '/en/': 'Error',
+          '/': '错误'
+        },
+        successText: {
+          '/en/': 'Copied',
+          '/': '复制'
+        }
       },
 
       plugins: [
-        EditOnGithubPlugin.create('https://github.com/RW-HPS/RW-HPS-Docs/blob/master/',null,"Edit on Github")
+        EditOnGithubPlugin.create('https://github.com/RW-HPS/RW-HPS-Docs/blob/master/',
+        null,
+        function(file) {
+          if (file.indexOf('en') === -1) {
+            return '在 Github 上编辑'
+          } else {
+            return 'Edit on Github'
+          }
+        })
       ]
     }
   </script>
@@ -36,5 +63,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 </body>
 </html>

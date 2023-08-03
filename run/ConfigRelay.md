@@ -10,33 +10,39 @@ RW-HPS提供了**3**个配置文件
 
 ### mainID
 
-前置ID(str)  
+> 前置ID(str)  
+
 Relay模式下的房间前置ID  
 未配置的话默认只有数字  
 默认**未配置**
 
 ### mainServer
 
-是否是 RELAY 主节点(bool)  
+> 是否是 RELAY 主节点(bool)  
 
-> 主节点将可以分配分节点分ID, 例如
-> RCN 分配 RA, 那么如果是 true, RA就会被跳转, 如果是 false, 就会解析
+主节点将可以分配分节点分ID, 例如
+RCN 分配 RA, 那么如果是 true, RA就会被跳转, 如果是 false, 就会解析
 
 默认配置为**启用**
 
 ### upList
 
-TODO(bool)  
+> TODO(bool)  
+
 服务器是否支持 uplist
 默认配置为**禁用**
 
 ### mainServerIP
 
-TODO(str)  
+> TODO(str)  
+
+
 
 ### mainServerPort
 
-TODO(int)  
+> TODO(int)  
+
+
 
 
 > 什么?你问我为什么是`TODO`?  

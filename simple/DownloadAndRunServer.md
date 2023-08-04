@@ -16,7 +16,7 @@
 
 ![img](img/rwhps_github_download_step0.png)
 
-看到那个蓝色的字了吗？就是写着**+ *23* releases**的那个，*23*在你那里可能是别的数字，不用管这些，点进去就行啦
+看到那个蓝色的字了吗？就是写着**+ 23 releases**的那个，*23*在你那里可能是别的数字，不用管这些，点进去就行啦
 
 ![img](img/rwhps_github_download_step1.png)
 

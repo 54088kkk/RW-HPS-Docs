@@ -6,6 +6,10 @@
 
 ##对于初次使用的用户，请阅读 [**用户手册**](run/UserManual.md)
 
+用户手册看不懂？步骤不够详细？
+
+来看看这个吧: [RW-HPS 零基础开服指南](/simple/README.md)
+
 ## JVM 平台 RW-HPS 开发
 
 本节介绍使用 Java 等 JVM 平台编程语言开发 RW-HPS 插件。
